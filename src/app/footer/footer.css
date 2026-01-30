@@ -1,0 +1,80 @@
+.footer {
+  background-color: var(--primary-blue);
+  color: white;
+  padding: 4rem 0 2rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.footer-col h4 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.footer-col a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-col a:hover {
+  color: white;
+}
+
+.brand .logo {
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  gap: 1rem;
+}
+
+.social-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 1rem;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  background: white;
+  color: var(--primary-blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.btn-outline {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.btn-filled {
+  background: var(--primary-cyan);
+  color: var(--primary-purple);
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 600;
+}

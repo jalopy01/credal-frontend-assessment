@@ -1,0 +1,74 @@
+.testimonial-section {
+  padding: 5rem 0;
+  text-align: center;
+  background: white;
+}
+
+.client-logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 0px solid #e0e0e0;
+  padding: 5px 15px;
+  border-radius: 4px;
+}
+
+.quote {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  background: var(--primary-blue);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.author-details {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-details span {
+  font-size: 0.9rem;
+  color: var(--text-grey);
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: var(--primary-blue);
+}
