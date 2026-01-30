@@ -19,7 +19,7 @@ This project is a frontend implementation for the CredPal assessment, built with
 Installation
 
 Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/jalopy01/credal-frontend-assessment.git
    cd credpal-assessment
 
 ### Installation
