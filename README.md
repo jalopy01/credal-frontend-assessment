@@ -2,6 +2,31 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.2.1.
 
+This project is a frontend implementation for the CredPal assessment, built with **Angular**.
+
+## Tech Stack
+- Angular
+- TypeScript
+- HTML / CSS
+- Node.js (for development)
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16+ recommended)
+- npm
+
+Installation
+
+Clone the repository
+git clone <your-repo-url>
+   cd credpal-assessment
+
+### Installation
+```bash
+npm install
+
+
 ## Development server
 
 To start a local development server, run:
